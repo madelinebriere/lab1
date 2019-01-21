@@ -9,7 +9,7 @@ plot(xval,corr1,'ko')
 axis ([-3, 3, -.2, 1.2])
 title('Problem 1a')
 ylabel('Autocorrelation')
-xlabel('Delay (l)')
+xlabel('Lag (l')
 grid on
 
 % Problem 2
@@ -22,5 +22,5 @@ figure(2)
 plot(xval,corr2,'ko')
 title('Problem 1b')
 ylabel('Autocorrelation')
-xlabel('Delay (l)')
+xlabel('Lag (l)')
 grid on
