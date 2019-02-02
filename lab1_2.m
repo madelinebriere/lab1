@@ -71,7 +71,6 @@ for i = 1:100
     [value_max, x_max] = max(ac4);
     % 2000 = compensate for delay
     % 10,000 = converting from lag back to n
-    % Indexing fucking blows
     estimate = x_max - 10000 - 2000 + 1;
     if(estimate == 0)
        count_b = count_b + 1;
